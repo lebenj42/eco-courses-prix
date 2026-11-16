@@ -16,7 +16,14 @@
    "Auchan": 3.15,
    "Biocoop": 3.98,
    "Carrefour": 4.01,
+   "Casino": 2.89,
    "E.Leclerc": 1.65,
+   "Franprix": 10.32,
+   "Intermarché": 3.0,
+   "La Vie Claire": 2.2,
+   "Match": 4.2,
+   "Monoprix": 2.37,
+   "Naturalia": 3.98,
    "Système U": 2.76
   }
  },
@@ -40,8 +47,12 @@
    "E.Leclerc": 1.55,
    "Franprix": 4.7,
    "Intermarché": 2.49,
+   "Match": 7.82,
    "Monoprix": 3.5,
-   "Système U": 3.5
+   "Naturalia": 5.77,
+   "Spar": 2.3,
+   "Système U": 3.5,
+   "Vival": 2.87
   }
  },
  {
@@ -89,6 +100,8 @@
    "Franprix": 9.23,
    "Intermarché": 4.54,
    "Monoprix": 8.19,
+   "Naturalia": 6.32,
+   "Spar": 3.74,
    "Système U": 6.24
   }
  },
@@ -112,6 +125,7 @@
    "E.Leclerc": 2.83,
    "Franprix": 5.68,
    "Intermarché": 4.05,
+   "Naturalia": 4.58,
    "Système U": 3.44
   }
  },
@@ -147,6 +161,7 @@
    "Biocoop": 6.35,
    "Carrefour": 1.96,
    "E.Leclerc": 1.38,
+   "Franprix": 5.8,
    "Intermarché": 4.02,
    "Monoprix": 3.01,
    "Système U": 4.37
@@ -187,7 +202,9 @@
    "Biocoop": 2.12,
    "Carrefour": 0.8,
    "E.Leclerc": 0.59,
+   "Franprix": 1.25,
    "Intermarché": 0.91,
+   "Naturalia": 2.96,
    "Système U": 1.06
   }
  },
@@ -210,6 +227,7 @@
    "Carrefour": 6.47,
    "E.Leclerc": 4.01,
    "Franprix": 7.17,
+   "G20": 5.28,
    "Intermarché": 4.81,
    "Lidl": 4.47,
    "Monoprix": 5.36,
@@ -336,8 +354,12 @@
    "Auchan": 11.12,
    "Biocoop": 11.96,
    "Carrefour": 10.36,
+   "Casino": 10.23,
    "E.Leclerc": 7.76,
+   "Franprix": 16.8,
+   "G20": 12.94,
    "Intermarché": 10.03,
+   "Lidl": 9.8,
    "Monoprix": 10.3,
    "Système U": 11.52
   }
@@ -358,6 +380,7 @@
   "enseignes": {
    "Auchan": 8.85,
    "Carrefour": 8.89,
+   "Casino": 9.25,
    "E.Leclerc": 7.31,
    "Intermarché": 9.17,
    "Lidl": 7.53,
@@ -406,6 +429,7 @@
    "Auchan": 14.0,
    "Carrefour": 19.9,
    "E.Leclerc": 12.27,
+   "Monoprix": 15.56,
    "Système U": 13.15
   }
  },
@@ -428,6 +452,7 @@
    "Carrefour": 20.0,
    "E.Leclerc": 13.5,
    "Franprix": 14.67,
+   "G20": 21.07,
    "Intermarché": 10.0,
    "Monoprix": 16.99,
    "Système U": 17.74
@@ -470,8 +495,10 @@
   "source": "open_prices",
   "date": "2026-11",
   "enseignes": {
+   "Auchan": 17.36,
    "E.Leclerc": 12.3,
-   "Lidl": 9.49
+   "Lidl": 9.49,
+   "Système U": 15.22
   }
  },
  {
@@ -519,7 +546,9 @@
    "Auchan": 8.43,
    "Carrefour": 13.57,
    "E.Leclerc": 6.23,
+   "Franprix": 5.6,
    "Intermarché": 6.9,
+   "Match": 15.25,
    "Système U": 9.54
   }
  },
@@ -554,10 +583,13 @@
    "Auchan": 16.16,
    "Biocoop": 26.7,
    "Carrefour": 16.21,
+   "Casino": 19.56,
    "E.Leclerc": 7.62,
    "Franprix": 15.85,
    "Intermarché": 15.86,
+   "Match": 22.0,
    "Monoprix": 10.7,
+   "Naturalia": 24.52,
    "Système U": 13.32
   }
  },
@@ -595,6 +627,7 @@
    "E.Leclerc": 22.15,
    "Franprix": 12.93,
    "Intermarché": 21.75,
+   "Lidl": 15.99,
    "Monoprix": 29.16,
    "Système U": 18.14
   }
@@ -828,7 +861,8 @@
   "enseignes": {
    "Carrefour": 2.8,
    "E.Leclerc": 1.34,
-   "Intermarché": 1.93
+   "Intermarché": 1.93,
+   "Monoprix": 3.52
   }
  },
  {
@@ -968,9 +1002,13 @@
   "source": "open_prices",
   "date": "2026-10",
   "enseignes": {
+   "Auchan": 4.33,
    "Carrefour": 2.45,
    "E.Leclerc": 2.07,
-   "Intermarché": 1.84
+   "Franprix": 2.48,
+   "Intermarché": 1.84,
+   "Monoprix": 4.11,
+   "Système U": 2.95
   }
  },
  {
@@ -1084,8 +1122,10 @@
   "enseignes": {
    "Auchan": 4.02,
    "Carrefour": 5.16,
+   "Casino": 3.67,
    "E.Leclerc": 3.33,
    "Franprix": 3.81,
+   "G20": 4.8,
    "Intermarché": 4.0,
    "Monoprix": 6.54,
    "Système U": 4.14
@@ -1134,6 +1174,7 @@
    "E.Leclerc": 3.27,
    "Franprix": 6.71,
    "Intermarché": 3.66,
+   "Naturalia": 6.96,
    "Système U": 6.8
   }
  },
@@ -1182,7 +1223,11 @@
    "Auchan": 11.71,
    "Carrefour": 7.44,
    "E.Leclerc": 9.67,
+   "Franprix": 11.25,
    "Intermarché": 10.63,
+   "Monoprix": 12.32,
+   "Naturalia": 18.57,
+   "Spar": 7.89,
    "Système U": 5.6
   }
  },
@@ -1231,8 +1276,11 @@
    "Auchan": 12.32,
    "Carrefour": 13.15,
    "E.Leclerc": 9.22,
+   "G20": 12.4,
    "Intermarché": 18.3,
+   "Lidl": 9.45,
    "Monoprix": 13.7,
+   "Naturalia": 24.9,
    "Système U": 13.15
   }
  },
@@ -1253,6 +1301,7 @@
    "Auchan": 17.24,
    "Carrefour": 13.93,
    "E.Leclerc": 8.42,
+   "Intermarché": 11.4,
    "Système U": 8.97
   }
  },
@@ -1289,6 +1338,7 @@
    "E.Leclerc": 6.52,
    "Franprix": 11.79,
    "Intermarché": 8.27,
+   "Match": 6.52,
    "Système U": 7.3
   }
  },
@@ -1304,7 +1354,10 @@
   },
   "placard": false,
   "source": "estimation",
-  "date": "2026-10"
+  "date": "2026-10",
+  "enseignes": {
+   "E.Leclerc": 12.7
+  }
  },
  {
   "id": "dinde",
@@ -1318,7 +1371,10 @@
   },
   "placard": false,
   "source": "estimation",
-  "date": "2026-10"
+  "date": "2026-10",
+  "enseignes": {
+   "E.Leclerc": 18.67
+  }
  },
  {
   "id": "cuisses_poulet",
@@ -1367,7 +1423,10 @@
   "date": "2026-02",
   "enseignes": {
    "Carrefour": 26.39,
-   "E.Leclerc": 9.98
+   "E.Leclerc": 9.98,
+   "Intermarché": 19.91,
+   "Monoprix": 15.75,
+   "Système U": 25.62
   }
  },
  {
@@ -1548,6 +1607,7 @@
   "source": "open_prices",
   "date": "2026-10",
   "enseignes": {
+   "Auchan": 8.26,
    "Carrefour": 4.89,
    "E.Leclerc": 5.37,
    "Intermarché": 13.04,
@@ -1613,7 +1673,9 @@
   "source": "open_prices",
   "date": "2026-09",
   "enseignes": {
-   "Carrefour": 48.2
+   "Carrefour": 48.2,
+   "Intermarché": 51.2,
+   "Système U": 68.53
   }
  },
  {
@@ -1630,9 +1692,11 @@
   "source": "open_prices",
   "date": "2026-11",
   "enseignes": {
+   "Auchan": 19.11,
    "Carrefour": 25.44,
    "E.Leclerc": 37.0,
    "Franprix": 31.92,
+   "Intermarché": 20.89,
    "Système U": 27.28
   }
  },
@@ -1652,8 +1716,10 @@
   "enseignes": {
    "Auchan": 4.6,
    "Carrefour": 5.12,
+   "Casino": 5.98,
    "E.Leclerc": 2.97,
    "Franprix": 3.75,
+   "Intermarché": 5.93,
    "Lidl": 2.84,
    "Monoprix": 4.62,
    "Système U": 3.45
@@ -1701,6 +1767,7 @@
    "Franprix": 10.77,
    "Intermarché": 11.76,
    "Monoprix": 22.05,
+   "Spar": 9.04,
    "Système U": 10.9
   }
  },
@@ -1753,7 +1820,10 @@
    "E.Leclerc": 4.98,
    "Franprix": 8.95,
    "Intermarché": 7.07,
+   "La Vie Claire": 15.84,
+   "Match": 5.28,
    "Monoprix": 8.77,
+   "Naturalia": 14.62,
    "Système U": 5.94
   }
  },
@@ -1774,9 +1844,15 @@
    "Auchan": 9.85,
    "Biocoop": 21.35,
    "Carrefour": 11.02,
+   "Casino": 10.26,
    "E.Leclerc": 9.7,
+   "Franprix": 15.96,
    "Intermarché": 12.74,
+   "Lidl": 9.74,
+   "Match": 11.46,
    "Monoprix": 15.88,
+   "Naturalia": 21.68,
+   "Spar": 20.27,
    "Système U": 10.71
   }
  },
@@ -1797,11 +1873,14 @@
    "Auchan": 3.71,
    "Biocoop": 7.29,
    "Carrefour": 3.16,
+   "Casino": 2.78,
    "E.Leclerc": 3.13,
    "Franprix": 4.4,
    "Intermarché": 3.08,
    "Monoprix": 4.12,
-   "Système U": 3.74
+   "Netto": 3.17,
+   "Système U": 3.74,
+   "Vival": 5.98
   }
  },
  {
@@ -1838,6 +1917,7 @@
    "Franprix": 13.82,
    "Intermarché": 8.19,
    "Monoprix": 11.72,
+   "Naturalia": 10.09,
    "Système U": 8.26
   }
  },
@@ -2040,7 +2120,10 @@
   },
   "placard": false,
   "source": "estimation",
-  "date": "2026-10"
+  "date": "2026-10",
+  "enseignes": {
+   "E.Leclerc": 12.87
+  }
  },
  {
   "id": "lapin",

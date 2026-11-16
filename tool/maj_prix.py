@@ -46,7 +46,10 @@ def main(op_path, insee_path, ing_path):
             ing["prix"] = op["prix"]
             ing["source"] = "open_prices"
             ing["date"] = op["dernier"][:7]
-            ing["enseignes"] = {e: v["prix"] for e, v in op["enseignes"].items()}
+            # Les enseignes absentes des derniers relevés gardent le prix déjà
+            # publié (tiré du catalogue complet des produits Open Prices).
+            ing["enseignes"] = dict(sorted({**(ing.get("enseignes") or {}),
+                                            **{e: v["prix"] for e, v in op["enseignes"].items()}}.items()))
         changes += avant != (ing["prix"], ing.get("enseignes"))
     pathlib.Path(ing_path).write_text(json.dumps(ingredients, ensure_ascii=False, indent=1))
     print(changes, "prix modifiés sur", len(ingredients))
