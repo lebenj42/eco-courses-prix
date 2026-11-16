@@ -3,6 +3,7 @@
 Ce dépôt public contient le fichier des prix que l'appli Eco Courses télécharge chaque semaine, et la politique de confidentialité de l'appli.
 
 - `ingredients.json` : prix des ingrédients, mis à jour chaque lundi automatiquement.
+- `tool/` et `.github/workflows/prix.yml` : le relevé du lundi (Open Prices, Insee), qui met à jour `ingredients.json` tout seul.
 - `confidentialite.html` : politique de confidentialité, en ligne sur https://lebenj42.github.io/eco-courses-prix/confidentialite.html
 
 ## Sources et licences des prix
@@ -12,3 +13,5 @@ Ce dépôt public contient le fichier des prix que l'appli Eco Courses télécha
 - Les autres prix sont des estimations.
 
 Aucune donnée personnelle n'est publiée ici.
+
+Quand l'appli gagne un ingrédient, recopier ici `tool/open_prices.py` depuis le dépôt de l'appli pour qu'il soit relevé aussi.

@@ -1,0 +1,27 @@
+name: Prix de la semaine
+
+# Chaque lundi : relève les prix Open Prices et Insee, met à jour
+# ingredients.json et le publie (l'appli Eco Courses le télécharge).
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 6 * * 1'  # chaque lundi à 6 h UTC
+
+permissions:
+  contents: write
+
+jobs:
+  prix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 tool/insee_prix.py /tmp/insee.json
+      - run: python3 tool/open_prices.py /tmp/open_prices.json
+      - run: python3 tool/maj_prix.py /tmp/open_prices.json /tmp/insee.json ingredients.json
+      - run: |
+          git diff --quiet -- ingredients.json && { echo "Prix inchangés."; exit 0; }
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add ingredients.json
+          git commit -m "Prix du $(date +%d/%m/%Y) (Open Prices, licence ODbL ; Insee)"
+          git push
