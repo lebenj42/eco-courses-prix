@@ -4,7 +4,7 @@
   "nom": "Pâtes",
   "rayon": "Épicerie",
   "unite": "kg",
-  "prix": 2.55,
+  "prix": 2.56,
   "achat": {
    "quantite": 1,
    "libelle": "paquet 1 kg"
@@ -13,10 +13,10 @@
   "source": "open_prices",
   "date": "2026-11",
   "enseignes": {
-   "Auchan": 3.21,
-   "Biocoop": 3.66,
+   "Auchan": 3.15,
+   "Biocoop": 3.98,
    "Carrefour": 4.01,
-   "E.Leclerc": 1.59,
+   "E.Leclerc": 1.65,
    "Système U": 2.76
   }
  },
@@ -34,10 +34,10 @@
   "source": "open_prices",
   "date": "2026-11",
   "enseignes": {
-   "Auchan": 4.01,
+   "Auchan": 3.96,
    "Biocoop": 5.37,
-   "Carrefour": 3.37,
-   "E.Leclerc": 1.56,
+   "Carrefour": 3.58,
+   "E.Leclerc": 1.55,
    "Franprix": 4.7,
    "Intermarché": 2.49,
    "Monoprix": 3.5,
@@ -106,7 +106,7 @@
   "source": "open_prices",
   "date": "2026-11",
   "enseignes": {
-   "Auchan": 3.83,
+   "Auchan": 3.75,
    "Biocoop": 5.6,
    "Carrefour": 2.49,
    "E.Leclerc": 2.83,
@@ -134,7 +134,7 @@
   "nom": "Tomates concassées",
   "rayon": "Épicerie",
   "unite": "kg",
-  "prix": 2.47,
+  "prix": 2.51,
   "achat": {
    "quantite": 0.4,
    "libelle": "boîte 400 g"
@@ -145,7 +145,7 @@
   "enseignes": {
    "Auchan": 3.99,
    "Biocoop": 6.35,
-   "Carrefour": 1.91,
+   "Carrefour": 1.96,
    "E.Leclerc": 1.38,
    "Intermarché": 4.02,
    "Monoprix": 3.01,
@@ -196,7 +196,7 @@
   "nom": "Gnocchis",
   "rayon": "Frais",
   "unite": "kg",
-  "prix": 4.51,
+  "prix": 4.57,
   "achat": {
    "quantite": 0.5,
    "libelle": "sachet 500 g"
@@ -208,7 +208,7 @@
    "Auchan": 4.62,
    "Biocoop": 9.83,
    "Carrefour": 6.47,
-   "E.Leclerc": 3.92,
+   "E.Leclerc": 4.01,
    "Franprix": 7.17,
    "Intermarché": 4.81,
    "Lidl": 4.47,
@@ -288,10 +288,10 @@
   "enseignes": {
    "Auchan": 1.13,
    "Biocoop": 2.3,
-   "Carrefour": 1.27,
-   "E.Leclerc": 0.98,
-   "Franprix": 1.66,
-   "Intermarché": 1.23,
+   "Carrefour": 1.28,
+   "E.Leclerc": 0.96,
+   "Franprix": 1.57,
+   "Intermarché": 1.22,
    "Monoprix": 1.4,
    "Système U": 1.07
   }
@@ -312,7 +312,7 @@
   "enseignes": {
    "Auchan": 4.65,
    "Biocoop": 7.25,
-   "Carrefour": 5.13,
+   "Carrefour": 5.35,
    "E.Leclerc": 3.78,
    "Intermarché": 4.87,
    "Monoprix": 5.13,
@@ -324,7 +324,7 @@
   "nom": "Beurre",
   "rayon": "Frais",
   "unite": "kg",
-  "prix": 9.49,
+  "prix": 9.52,
   "achat": {
    "quantite": 0.25,
    "libelle": "plaquette 250 g"
@@ -336,10 +336,10 @@
    "Auchan": 11.12,
    "Biocoop": 11.96,
    "Carrefour": 10.36,
-   "E.Leclerc": 7.08,
+   "E.Leclerc": 7.76,
    "Intermarché": 10.03,
    "Monoprix": 10.3,
-   "Système U": 11.56
+   "Système U": 11.52
   }
  },
  {
@@ -361,7 +361,7 @@
    "E.Leclerc": 7.31,
    "Intermarché": 9.17,
    "Lidl": 7.53,
-   "Monoprix": 9.0,
+   "Monoprix": 9.06,
    "Système U": 10.74
   }
  },
@@ -414,7 +414,7 @@
   "nom": "Jambon blanc",
   "rayon": "Frais",
   "unite": "kg",
-  "prix": 14.77,
+  "prix": 14.75,
   "achat": {
    "quantite": 0.16,
    "libelle": "4 tranches"
@@ -428,7 +428,7 @@
    "Carrefour": 20.0,
    "E.Leclerc": 13.5,
    "Franprix": 14.67,
-   "Intermarché": 10.08,
+   "Intermarché": 10.0,
    "Monoprix": 16.99,
    "Système U": 17.74
   }
@@ -449,7 +449,7 @@
   "enseignes": {
    "Auchan": 6.89,
    "Biocoop": 26.33,
-   "Carrefour": 10.07,
+   "Carrefour": 11.93,
    "E.Leclerc": 6.55,
    "Franprix": 14.75,
    "Intermarché": 10.22,
@@ -518,7 +518,7 @@
   "enseignes": {
    "Auchan": 8.43,
    "Carrefour": 13.57,
-   "E.Leclerc": 6.29,
+   "E.Leclerc": 6.23,
    "Intermarché": 6.9,
    "Système U": 9.54
   }
@@ -542,7 +542,7 @@
   "nom": "Thon au naturel",
   "rayon": "Épicerie",
   "unite": "kg",
-  "prix": 11.28,
+  "prix": 11.58,
   "achat": {
    "quantite": 0.14,
    "libelle": "boîte 140 g"
@@ -580,7 +580,7 @@
   "nom": "Pavés de saumon",
   "rayon": "Poissonnerie",
   "unite": "kg",
-  "prix": 22.15,
+  "prix": 22.2,
   "achat": {
    "quantite": 0.25,
    "libelle": "2 pavés 250 g"
@@ -591,8 +591,8 @@
   "enseignes": {
    "Auchan": 29.96,
    "Biocoop": 59.9,
-   "Carrefour": 22.19,
-   "E.Leclerc": 21.9,
+   "Carrefour": 20.63,
+   "E.Leclerc": 22.15,
    "Franprix": 12.93,
    "Intermarché": 21.75,
    "Monoprix": 29.16,
@@ -1073,7 +1073,7 @@
   "nom": "Maïs (conserve)",
   "rayon": "Épicerie",
   "unite": "kg",
-  "prix": 3.91,
+  "prix": 3.83,
   "achat": {
    "quantite": 0.285,
    "libelle": "boîte 285 g"
@@ -1082,7 +1082,7 @@
   "source": "open_prices",
   "date": "2026-10",
   "enseignes": {
-   "Auchan": 4.53,
+   "Auchan": 4.02,
    "Carrefour": 5.16,
    "E.Leclerc": 3.33,
    "Franprix": 3.81,
@@ -1096,7 +1096,7 @@
   "nom": "Haricots blancs (conserve)",
   "rayon": "Épicerie",
   "unite": "kg",
-  "prix": 2.41,
+  "prix": 2.35,
   "achat": {
    "quantite": 0.4,
    "libelle": "boîte 400 g"
@@ -1219,7 +1219,7 @@
   "nom": "Bûche de chèvre",
   "rayon": "Frais",
   "unite": "kg",
-  "prix": 11.0,
+  "prix": 10.8,
   "achat": {
    "quantite": 0.18,
    "libelle": "bûche 180 g"
@@ -1285,7 +1285,7 @@
   "date": "2026-10",
   "enseignes": {
    "Auchan": 8.63,
-   "Carrefour": 9.49,
+   "Carrefour": 8.05,
    "E.Leclerc": 6.52,
    "Franprix": 11.79,
    "Intermarché": 8.27,
@@ -1375,7 +1375,7 @@
   "nom": "Poisson pané surgelé",
   "rayon": "Surgelés",
   "unite": "kg",
-  "prix": 7.61,
+  "prix": 7.51,
   "achat": {
    "quantite": 0.4,
    "libelle": "boîte de 10"
@@ -1386,7 +1386,7 @@
   "enseignes": {
    "Auchan": 13.59,
    "Carrefour": 7.48,
-   "E.Leclerc": 7.55,
+   "E.Leclerc": 7.43,
    "Franprix": 12.29,
    "Intermarché": 7.44,
    "Système U": 6.72
@@ -1460,9 +1460,9 @@
   },
   "placard": false,
   "source": "open_prices",
-  "date": "2026-09",
+  "date": "2026-11",
   "enseignes": {
-   "Carrefour": 1.39
+   "Carrefour": 1.49
   }
  },
  {
@@ -1484,14 +1484,14 @@
   "nom": "Pommes",
   "rayon": "Fruits et légumes",
   "unite": "kg",
-  "prix": 2.81,
+  "prix": 2.8,
   "achat": {
    "quantite": 1.5,
    "libelle": "sachet 1,5 kg"
   },
   "placard": false,
   "source": "open_prices",
-  "date": "2026-10",
+  "date": "2026-11",
   "enseignes": {
    "Biocoop": 3.6,
    "Carrefour": 2.71,
@@ -1581,7 +1581,7 @@
   "nom": "Cornichons",
   "rayon": "Épicerie",
   "unite": "kg",
-  "prix": 5.13,
+  "prix": 5.03,
   "achat": {
    "quantite": 0.35,
    "libelle": "bocal 350 g"
@@ -1596,7 +1596,7 @@
    "E.Leclerc": 4.24,
    "Intermarché": 6.77,
    "Monoprix": 6.59,
-   "Système U": 5.22
+   "Système U": 5.17
   }
  },
  {
@@ -1685,7 +1685,7 @@
   "nom": "Miel",
   "rayon": "Épicerie",
   "unite": "kg",
-  "prix": 11.91,
+  "prix": 11.8,
   "achat": {
    "quantite": 0.5,
    "libelle": "pot 500 g"
@@ -1699,7 +1699,7 @@
    "Carrefour": 10.87,
    "E.Leclerc": 9.22,
    "Franprix": 10.77,
-   "Intermarché": 11.82,
+   "Intermarché": 11.76,
    "Monoprix": 22.05,
    "Système U": 10.9
   }
@@ -1737,7 +1737,7 @@
   "nom": "Mayonnaise",
   "rayon": "Épicerie",
   "unite": "kg",
-  "prix": 5.7,
+  "prix": 5.77,
   "achat": {
    "quantite": 0.235,
    "libelle": "bocal 235 g"
@@ -1748,13 +1748,13 @@
   "enseignes": {
    "Auchan": 5.67,
    "Biocoop": 17.64,
-   "Carrefour": 5.44,
+   "Carrefour": 5.16,
    "Casino": 8.43,
-   "E.Leclerc": 4.64,
+   "E.Leclerc": 4.98,
    "Franprix": 8.95,
    "Intermarché": 7.07,
    "Monoprix": 8.77,
-   "Système U": 5.91
+   "Système U": 5.94
   }
  },
  {
@@ -1762,7 +1762,7 @@
   "nom": "Pesto au basilic",
   "rayon": "Épicerie",
   "unite": "kg",
-  "prix": 11.36,
+  "prix": 11.32,
   "achat": {
    "quantite": 0.19,
    "libelle": "pot 190 g"
@@ -1773,11 +1773,11 @@
   "enseignes": {
    "Auchan": 9.85,
    "Biocoop": 21.35,
-   "Carrefour": 10.95,
-   "E.Leclerc": 10.72,
+   "Carrefour": 11.02,
+   "E.Leclerc": 9.7,
    "Intermarché": 12.74,
    "Monoprix": 15.88,
-   "Système U": 10.77
+   "Système U": 10.71
   }
  },
  {
@@ -1797,7 +1797,7 @@
    "Auchan": 3.71,
    "Biocoop": 7.29,
    "Carrefour": 3.16,
-   "E.Leclerc": 3.12,
+   "E.Leclerc": 3.13,
    "Franprix": 4.4,
    "Intermarché": 3.08,
    "Monoprix": 4.12,
@@ -2089,7 +2089,7 @@
   "nom": "Steaks de bœuf",
   "rayon": "Boucherie",
   "unite": "kg",
-  "prix": 15.54,
+  "prix": 15.59,
   "achat": {
    "quantite": 0.5,
    "libelle": "4 steaks"
@@ -2099,10 +2099,10 @@
   "date": "2026-11",
   "enseignes": {
    "Auchan": 13.82,
-   "Carrefour": 18.31,
-   "E.Leclerc": 14.5,
+   "Carrefour": 18.21,
+   "E.Leclerc": 15.09,
    "Franprix": 15.56,
-   "Intermarché": 17.09,
+   "Intermarché": 16.26,
    "Monoprix": 13.85,
    "Système U": 20.36
   }
