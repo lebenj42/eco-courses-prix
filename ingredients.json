@@ -1,0 +1,2110 @@
+[
+ {
+  "id": "pates",
+  "nom": "Pâtes",
+  "rayon": "Épicerie",
+  "unite": "kg",
+  "prix": 2.55,
+  "achat": {
+   "quantite": 1,
+   "libelle": "paquet 1 kg"
+  },
+  "placard": false,
+  "source": "open_prices",
+  "date": "2026-11",
+  "enseignes": {
+   "Auchan": 3.21,
+   "Biocoop": 3.66,
+   "Carrefour": 4.01,
+   "E.Leclerc": 1.59,
+   "Système U": 2.76
+  }
+ },
+ {
+  "id": "riz",
+  "nom": "Riz long",
+  "rayon": "Épicerie",
+  "unite": "kg",
+  "prix": 3.56,
+  "achat": {
+   "quantite": 1,
+   "libelle": "paquet 1 kg"
+  },
+  "placard": false,
+  "source": "open_prices",
+  "date": "2026-11",
+  "enseignes": {
+   "Auchan": 4.01,
+   "Biocoop": 5.37,
+   "Carrefour": 3.37,
+   "E.Leclerc": 1.56,
+   "Franprix": 4.7,
+   "Intermarché": 2.49,
+   "Monoprix": 3.5,
+   "Système U": 3.5
+  }
+ },
+ {
+  "id": "semoule",
+  "nom": "Semoule",
+  "rayon": "Épicerie",
+  "unite": "kg",
+  "prix": 2.34,
+  "achat": {
+   "quantite": 1,
+   "libelle": "paquet 1 kg"
+  },
+  "placard": false,
+  "source": "open_prices",
+  "date": "2026-11",
+  "enseignes": {
+   "Auchan": 3.2,
+   "Biocoop": 4.47,
+   "Carrefour": 3.34,
+   "E.Leclerc": 2.01,
+   "Franprix": 5.93,
+   "Intermarché": 2.61,
+   "Monoprix": 6.18,
+   "Système U": 2.22
+  }
+ },
+ {
+  "id": "lentilles",
+  "nom": "Lentilles corail",
+  "rayon": "Épicerie",
+  "unite": "kg",
+  "prix": 3.35,
+  "achat": {
+   "quantite": 0.5,
+   "libelle": "sachet 500 g"
+  },
+  "placard": false,
+  "source": "open_prices",
+  "date": "2026-11",
+  "enseignes": {
+   "Auchan": 3.26,
+   "Biocoop": 6.4,
+   "Carrefour": 3.98,
+   "E.Leclerc": 3.0,
+   "Franprix": 9.23,
+   "Intermarché": 4.54,
+   "Monoprix": 8.19,
+   "Système U": 6.24
+  }
+ },
+ {
+  "id": "pois_chiches",
+  "nom": "Pois chiches (conserve)",
+  "rayon": "Épicerie",
+  "unite": "kg",
+  "prix": 2.98,
+  "achat": {
+   "quantite": 0.4,
+   "libelle": "boîte 400 g"
+  },
+  "placard": false,
+  "source": "open_prices",
+  "date": "2026-11",
+  "enseignes": {
+   "Auchan": 3.83,
+   "Biocoop": 5.6,
+   "Carrefour": 2.49,
+   "E.Leclerc": 2.83,
+   "Franprix": 5.68,
+   "Intermarché": 4.05,
+   "Système U": 3.44
+  }
+ },
+ {
+  "id": "haricots_rouges",
+  "nom": "Haricots rouges (conserve)",
+  "rayon": "Épicerie",
+  "unite": "kg",
+  "prix": 2.5,
+  "achat": {
+   "quantite": 0.4,
+   "libelle": "boîte 400 g"
+  },
+  "placard": false,
+  "source": "estimation",
+  "date": "2026-10"
+ },
+ {
+  "id": "tomates_conc",
+  "nom": "Tomates concassées",
+  "rayon": "Épicerie",
+  "unite": "kg",
+  "prix": 2.47,
+  "achat": {
+   "quantite": 0.4,
+   "libelle": "boîte 400 g"
+  },
+  "placard": false,
+  "source": "open_prices",
+  "date": "2026-11",
+  "enseignes": {
+   "Auchan": 3.99,
+   "Biocoop": 6.35,
+   "Carrefour": 1.91,
+   "E.Leclerc": 1.38,
+   "Intermarché": 4.02,
+   "Monoprix": 3.01,
+   "Système U": 4.37
+  }
+ },
+ {
+  "id": "lait_coco",
+  "nom": "Lait de coco",
+  "rayon": "Épicerie",
+  "unite": "l",
+  "prix": 3.35,
+  "achat": {
+   "quantite": 0.4,
+   "libelle": "brique 40 cl"
+  },
+  "placard": false,
+  "source": "open_prices",
+  "date": "2026-11",
+  "enseignes": {
+   "E.Leclerc": 2.65
+  }
+ },
+ {
+  "id": "farine",
+  "nom": "Farine T55",
+  "rayon": "Épicerie",
+  "unite": "kg",
+  "prix": 1.1,
+  "achat": {
+   "quantite": 1,
+   "libelle": "paquet 1 kg"
+  },
+  "placard": false,
+  "source": "open_prices",
+  "date": "2026-11",
+  "enseignes": {
+   "Auchan": 1.21,
+   "Biocoop": 2.12,
+   "Carrefour": 0.8,
+   "E.Leclerc": 0.59,
+   "Intermarché": 0.91,
+   "Système U": 1.06
+  }
+ },
+ {
+  "id": "gnocchis",
+  "nom": "Gnocchis",
+  "rayon": "Frais",
+  "unite": "kg",
+  "prix": 4.51,
+  "achat": {
+   "quantite": 0.5,
+   "libelle": "sachet 500 g"
+  },
+  "placard": false,
+  "source": "open_prices",
+  "date": "2026-11",
+  "enseignes": {
+   "Auchan": 4.62,
+   "Biocoop": 9.83,
+   "Carrefour": 6.47,
+   "E.Leclerc": 3.92,
+   "Franprix": 7.17,
+   "Intermarché": 4.81,
+   "Lidl": 4.47,
+   "Monoprix": 5.36,
+   "Système U": 5.14
+  }
+ },
+ {
+  "id": "pate_pizza",
+  "nom": "Pâte à pizza",
+  "rayon": "Frais",
+  "unite": "piece",
+  "prix": 1.5,
+  "achat": {
+   "quantite": 1,
+   "libelle": "1 pâte"
+  },
+  "placard": false,
+  "source": "estimation",
+  "date": "2026-10"
+ },
+ {
+  "id": "tortillas",
+  "nom": "Tortillas",
+  "rayon": "Épicerie",
+  "unite": "piece",
+  "prix": 0.25,
+  "achat": {
+   "quantite": 8,
+   "libelle": "paquet de 8"
+  },
+  "placard": false,
+  "source": "estimation",
+  "date": "2026-10"
+ },
+ {
+  "id": "pain_mie",
+  "nom": "Pain de mie",
+  "rayon": "Boulangerie",
+  "unite": "piece",
+  "prix": 0.12,
+  "achat": {
+   "quantite": 20,
+   "libelle": "paquet de 20 tranches"
+  },
+  "placard": false,
+  "source": "estimation",
+  "date": "2026-10"
+ },
+ {
+  "id": "oeufs",
+  "nom": "Œufs",
+  "rayon": "Frais",
+  "unite": "piece",
+  "prix": 0.3,
+  "achat": {
+   "quantite": 6,
+   "libelle": "boîte de 6"
+  },
+  "placard": false,
+  "source": "estimation",
+  "date": "2026-10"
+ },
+ {
+  "id": "lait",
+  "nom": "Lait demi-écrémé",
+  "rayon": "Frais",
+  "unite": "l",
+  "prix": 1.25,
+  "achat": {
+   "quantite": 1,
+   "libelle": "bouteille 1 l"
+  },
+  "placard": false,
+  "source": "open_prices",
+  "date": "2026-11",
+  "enseignes": {
+   "Auchan": 1.13,
+   "Biocoop": 2.3,
+   "Carrefour": 1.27,
+   "E.Leclerc": 0.98,
+   "Franprix": 1.66,
+   "Intermarché": 1.23,
+   "Monoprix": 1.4,
+   "Système U": 1.07
+  }
+ },
+ {
+  "id": "creme",
+  "nom": "Crème fraîche",
+  "rayon": "Frais",
+  "unite": "l",
+  "prix": 3.92,
+  "achat": {
+   "quantite": 0.2,
+   "libelle": "pot 20 cl"
+  },
+  "placard": false,
+  "source": "open_prices",
+  "date": "2026-11",
+  "enseignes": {
+   "Auchan": 4.65,
+   "Biocoop": 7.25,
+   "Carrefour": 5.13,
+   "E.Leclerc": 3.78,
+   "Intermarché": 4.87,
+   "Monoprix": 5.13,
+   "Système U": 4.44
+  }
+ },
+ {
+  "id": "beurre",
+  "nom": "Beurre",
+  "rayon": "Frais",
+  "unite": "kg",
+  "prix": 9.49,
+  "achat": {
+   "quantite": 0.25,
+   "libelle": "plaquette 250 g"
+  },
+  "placard": false,
+  "source": "open_prices",
+  "date": "2026-11",
+  "enseignes": {
+   "Auchan": 11.12,
+   "Biocoop": 11.96,
+   "Carrefour": 10.36,
+   "E.Leclerc": 7.08,
+   "Intermarché": 10.03,
+   "Monoprix": 10.3,
+   "Système U": 11.56
+  }
+ },
+ {
+  "id": "emmental",
+  "nom": "Emmental râpé",
+  "rayon": "Frais",
+  "unite": "kg",
+  "prix": 7.98,
+  "achat": {
+   "quantite": 0.2,
+   "libelle": "sachet 200 g"
+  },
+  "placard": false,
+  "source": "open_prices",
+  "date": "2026-11",
+  "enseignes": {
+   "Auchan": 8.85,
+   "Carrefour": 8.89,
+   "E.Leclerc": 7.31,
+   "Intermarché": 9.17,
+   "Lidl": 7.53,
+   "Monoprix": 9.0,
+   "Système U": 10.74
+  }
+ },
+ {
+  "id": "mozzarella",
+  "nom": "Mozzarella",
+  "rayon": "Frais",
+  "unite": "kg",
+  "prix": 7.44,
+  "achat": {
+   "quantite": 0.125,
+   "libelle": "boule 125 g"
+  },
+  "placard": false,
+  "source": "open_prices",
+  "date": "2026-11",
+  "enseignes": {
+   "Auchan": 7.79,
+   "Biocoop": 5.7,
+   "Carrefour": 6.96,
+   "E.Leclerc": 7.44,
+   "Intermarché": 5.83,
+   "Lidl": 6.04,
+   "Monoprix": 15.12,
+   "Système U": 7.92
+  }
+ },
+ {
+  "id": "feta",
+  "nom": "Feta",
+  "rayon": "Frais",
+  "unite": "kg",
+  "prix": 12.27,
+  "achat": {
+   "quantite": 0.2,
+   "libelle": "bloc 200 g"
+  },
+  "placard": false,
+  "source": "open_prices",
+  "date": "2026-11",
+  "enseignes": {
+   "Auchan": 14.0,
+   "Carrefour": 19.9,
+   "E.Leclerc": 12.27,
+   "Système U": 13.15
+  }
+ },
+ {
+  "id": "jambon",
+  "nom": "Jambon blanc",
+  "rayon": "Frais",
+  "unite": "kg",
+  "prix": 14.77,
+  "achat": {
+   "quantite": 0.16,
+   "libelle": "4 tranches"
+  },
+  "placard": false,
+  "source": "open_prices",
+  "date": "2026-11",
+  "enseignes": {
+   "Auchan": 14.3,
+   "Biocoop": 36.56,
+   "Carrefour": 20.0,
+   "E.Leclerc": 13.5,
+   "Franprix": 14.67,
+   "Intermarché": 10.08,
+   "Monoprix": 16.99,
+   "Système U": 17.74
+  }
+ },
+ {
+  "id": "lardons",
+  "nom": "Lardons",
+  "rayon": "Frais",
+  "unite": "kg",
+  "prix": 6.56,
+  "achat": {
+   "quantite": 0.15,
+   "libelle": "barquette 2 x 75 g"
+  },
+  "placard": false,
+  "source": "open_prices",
+  "date": "2026-11",
+  "enseignes": {
+   "Auchan": 6.89,
+   "Biocoop": 26.33,
+   "Carrefour": 10.07,
+   "E.Leclerc": 6.55,
+   "Franprix": 14.75,
+   "Intermarché": 10.22,
+   "Système U": 9.12
+  }
+ },
+ {
+  "id": "poulet_filet",
+  "nom": "Filets de poulet",
+  "rayon": "Boucherie",
+  "unite": "kg",
+  "prix": 12.3,
+  "achat": {
+   "quantite": 0.5,
+   "libelle": "barquette 500 g"
+  },
+  "placard": false,
+  "source": "open_prices",
+  "date": "2026-11",
+  "enseignes": {
+   "E.Leclerc": 12.3,
+   "Lidl": 9.49
+  }
+ },
+ {
+  "id": "poulet_entier",
+  "nom": "Poulet entier",
+  "rayon": "Boucherie",
+  "unite": "kg",
+  "prix": 5.8,
+  "achat": {
+   "quantite": 1.4,
+   "libelle": "poulet 1,4 kg"
+  },
+  "placard": false,
+  "source": "estimation",
+  "date": "2026-10"
+ },
+ {
+  "id": "boeuf_hache",
+  "nom": "Bœuf haché 5 %",
+  "rayon": "Boucherie",
+  "unite": "kg",
+  "prix": 12.5,
+  "achat": {
+   "quantite": 0.5,
+   "libelle": "barquette 500 g"
+  },
+  "placard": false,
+  "source": "estimation",
+  "date": "2026-10"
+ },
+ {
+  "id": "saucisses",
+  "nom": "Saucisses de Toulouse",
+  "rayon": "Boucherie",
+  "unite": "kg",
+  "prix": 7.33,
+  "achat": {
+   "quantite": 0.5,
+   "libelle": "barquette 500 g"
+  },
+  "placard": false,
+  "source": "open_prices",
+  "date": "2026-11",
+  "enseignes": {
+   "Auchan": 8.43,
+   "Carrefour": 13.57,
+   "E.Leclerc": 6.29,
+   "Intermarché": 6.9,
+   "Système U": 9.54
+  }
+ },
+ {
+  "id": "porc_echine",
+  "nom": "Échine de porc",
+  "rayon": "Boucherie",
+  "unite": "kg",
+  "prix": 12.15,
+  "achat": {
+   "quantite": 0.6,
+   "libelle": "barquette 600 g"
+  },
+  "placard": false,
+  "source": "insee",
+  "date": "2026-10"
+ },
+ {
+  "id": "thon",
+  "nom": "Thon au naturel",
+  "rayon": "Épicerie",
+  "unite": "kg",
+  "prix": 11.28,
+  "achat": {
+   "quantite": 0.14,
+   "libelle": "boîte 140 g"
+  },
+  "placard": false,
+  "source": "open_prices",
+  "date": "2026-11",
+  "enseignes": {
+   "Auchan": 16.16,
+   "Biocoop": 26.7,
+   "Carrefour": 16.21,
+   "E.Leclerc": 7.62,
+   "Franprix": 15.85,
+   "Intermarché": 15.86,
+   "Monoprix": 10.7,
+   "Système U": 13.32
+  }
+ },
+ {
+  "id": "colin",
+  "nom": "Filets de colin surgelés",
+  "rayon": "Surgelés",
+  "unite": "kg",
+  "prix": 10.5,
+  "achat": {
+   "quantite": 0.4,
+   "libelle": "boîte 400 g"
+  },
+  "placard": false,
+  "source": "estimation",
+  "date": "2026-10"
+ },
+ {
+  "id": "saumon",
+  "nom": "Pavés de saumon",
+  "rayon": "Poissonnerie",
+  "unite": "kg",
+  "prix": 22.15,
+  "achat": {
+   "quantite": 0.25,
+   "libelle": "2 pavés 250 g"
+  },
+  "placard": false,
+  "source": "open_prices",
+  "date": "2026-11",
+  "enseignes": {
+   "Auchan": 29.96,
+   "Biocoop": 59.9,
+   "Carrefour": 22.19,
+   "E.Leclerc": 21.9,
+   "Franprix": 12.93,
+   "Intermarché": 21.75,
+   "Monoprix": 29.16,
+   "Système U": 18.14
+  }
+ },
+ {
+  "id": "pdt",
+  "nom": "Pommes de terre",
+  "rayon": "Fruits et légumes",
+  "unite": "kg",
+  "prix": 1.59,
+  "achat": {
+   "quantite": 2.5,
+   "libelle": "filet 2,5 kg"
+  },
+  "placard": false,
+  "source": "open_prices",
+  "date": "2026-10",
+  "enseignes": {
+   "Carrefour": 1.88,
+   "E.Leclerc": 1.64,
+   "Lidl": 0.91,
+   "Monoprix": 1.2
+  }
+ },
+ {
+  "id": "carottes",
+  "nom": "Carottes",
+  "rayon": "Fruits et légumes",
+  "unite": "kg",
+  "prix": 1.98,
+  "achat": {
+   "quantite": 1,
+   "libelle": "sachet 1 kg"
+  },
+  "placard": false,
+  "source": "open_prices",
+  "date": "2026-10",
+  "enseignes": {
+   "Biocoop": 2.25,
+   "Carrefour": 1.94,
+   "E.Leclerc": 1.89,
+   "Intermarché": 1.99,
+   "Lidl": 1.26
+  }
+ },
+ {
+  "id": "oignons",
+  "nom": "Oignons",
+  "rayon": "Fruits et légumes",
+  "unite": "kg",
+  "prix": 1.89,
+  "achat": {
+   "quantite": 1,
+   "libelle": "filet 1 kg"
+  },
+  "placard": false,
+  "source": "open_prices",
+  "date": "2026-10",
+  "enseignes": {}
+ },
+ {
+  "id": "ail",
+  "nom": "Ail",
+  "rayon": "Fruits et légumes",
+  "unite": "piece",
+  "prix": 0.6,
+  "achat": {
+   "quantite": 1,
+   "libelle": "1 tête"
+  },
+  "placard": false,
+  "source": "estimation",
+  "date": "2026-10"
+ },
+ {
+  "id": "courgettes",
+  "nom": "Courgettes",
+  "rayon": "Fruits et légumes",
+  "unite": "kg",
+  "prix": 2.25,
+  "achat": {
+   "quantite": 1,
+   "libelle": "1 kg"
+  },
+  "placard": false,
+  "source": "open_prices",
+  "date": "2026-10",
+  "enseignes": {
+   "Biocoop": 2.3,
+   "Carrefour": 1.99
+  }
+ },
+ {
+  "id": "tomates",
+  "nom": "Tomates",
+  "rayon": "Fruits et légumes",
+  "unite": "kg",
+  "prix": 3.5,
+  "achat": {
+   "quantite": 0.5,
+   "libelle": "500 g"
+  },
+  "placard": false,
+  "source": "open_prices",
+  "date": "2026-11",
+  "enseignes": {
+   "Carrefour": 3.39,
+   "E.Leclerc": 2.98,
+   "Intermarché": 2.89,
+   "Lidl": 1.49,
+   "Monoprix": 3.25,
+   "Système U": 3.99
+  }
+ },
+ {
+  "id": "poivrons",
+  "nom": "Poivrons",
+  "rayon": "Fruits et légumes",
+  "unite": "kg",
+  "prix": 4.89,
+  "achat": {
+   "quantite": 0.5,
+   "libelle": "lot de 3"
+  },
+  "placard": false,
+  "source": "insee",
+  "date": "2026-10"
+ },
+ {
+  "id": "brocoli",
+  "nom": "Brocoli",
+  "rayon": "Fruits et légumes",
+  "unite": "piece",
+  "prix": 1.39,
+  "achat": {
+   "quantite": 1,
+   "libelle": "1 tête"
+  },
+  "placard": false,
+  "source": "open_prices",
+  "date": "2026-07",
+  "enseignes": {
+   "Carrefour": 1.39
+  }
+ },
+ {
+  "id": "poireaux",
+  "nom": "Poireaux",
+  "rayon": "Fruits et légumes",
+  "unite": "kg",
+  "prix": 2.52,
+  "achat": {
+   "quantite": 1,
+   "libelle": "botte 1 kg"
+  },
+  "placard": false,
+  "source": "open_prices",
+  "date": "2026-11",
+  "enseignes": {
+   "Carrefour": 2.01,
+   "Intermarché": 2.49,
+   "Système U": 1.79
+  }
+ },
+ {
+  "id": "champignons",
+  "nom": "Champignons de Paris",
+  "rayon": "Fruits et légumes",
+  "unite": "kg",
+  "prix": 5.99,
+  "achat": {
+   "quantite": 0.25,
+   "libelle": "barquette 250 g"
+  },
+  "placard": false,
+  "source": "open_prices",
+  "date": "2026-07",
+  "enseignes": {
+   "Carrefour": 4.74
+  }
+ },
+ {
+  "id": "salade",
+  "nom": "Salade",
+  "rayon": "Fruits et légumes",
+  "unite": "piece",
+  "prix": 1.26,
+  "achat": {
+   "quantite": 1,
+   "libelle": "1 laitue"
+  },
+  "placard": false,
+  "source": "open_prices",
+  "date": "2026-09",
+  "enseignes": {
+   "Auchan": 1.25,
+   "Carrefour": 1.29,
+   "Intermarché": 1.21
+  }
+ },
+ {
+  "id": "chou_fleur",
+  "nom": "Chou-fleur",
+  "rayon": "Fruits et légumes",
+  "unite": "piece",
+  "prix": 2.69,
+  "achat": {
+   "quantite": 1,
+   "libelle": "1 tête"
+  },
+  "placard": false,
+  "source": "open_prices",
+  "date": "2026-07",
+  "enseignes": {
+   "Carrefour": 2.64
+  }
+ },
+ {
+  "id": "epinards",
+  "nom": "Épinards surgelés",
+  "rayon": "Surgelés",
+  "unite": "kg",
+  "prix": 2.01,
+  "achat": {
+   "quantite": 1,
+   "libelle": "sachet 1 kg"
+  },
+  "placard": false,
+  "source": "open_prices",
+  "date": "2026-10",
+  "enseignes": {
+   "Carrefour": 2.8,
+   "E.Leclerc": 1.34,
+   "Intermarché": 1.93
+  }
+ },
+ {
+  "id": "petits_pois",
+  "nom": "Petits pois surgelés",
+  "rayon": "Surgelés",
+  "unite": "kg",
+  "prix": 2.9,
+  "achat": {
+   "quantite": 1,
+   "libelle": "sachet 1 kg"
+  },
+  "placard": false,
+  "source": "estimation",
+  "date": "2026-10"
+ },
+ {
+  "id": "potiron",
+  "nom": "Potiron",
+  "rayon": "Fruits et légumes",
+  "unite": "kg",
+  "prix": 1.99,
+  "achat": {
+   "quantite": 1,
+   "libelle": "1 kg"
+  },
+  "placard": false,
+  "source": "open_prices",
+  "date": "2026-11",
+  "enseignes": {}
+ },
+ {
+  "id": "citron",
+  "nom": "Citron",
+  "rayon": "Fruits et légumes",
+  "unite": "piece",
+  "prix": 0.67,
+  "achat": {
+   "quantite": 1,
+   "libelle": "1 citron"
+  },
+  "placard": false,
+  "source": "open_prices",
+  "date": "2026-09",
+  "enseignes": {
+   "Carrefour": 0.78
+  }
+ },
+ {
+  "id": "huile",
+  "nom": "Huile d'olive",
+  "rayon": "Épicerie",
+  "unite": "l",
+  "prix": 1.62,
+  "achat": {
+   "quantite": 0.75,
+   "libelle": "bouteille 75 cl"
+  },
+  "placard": true,
+  "source": "open_prices",
+  "date": "2026-11",
+  "enseignes": {
+   "Auchan": 2.16,
+   "Carrefour": 2.75,
+   "E.Leclerc": 1.62,
+   "Intermarché": 1.11,
+   "Système U": 1.94
+  }
+ },
+ {
+  "id": "sel",
+  "nom": "Sel et poivre",
+  "rayon": "Épicerie",
+  "unite": "piece",
+  "prix": 0.0,
+  "achat": {
+   "quantite": 1,
+   "libelle": "placard"
+  },
+  "placard": true,
+  "source": "estimation",
+  "date": "2026-10"
+ },
+ {
+  "id": "epices",
+  "nom": "Épices (curry, cumin, paprika)",
+  "rayon": "Épicerie",
+  "unite": "piece",
+  "prix": 0.0,
+  "achat": {
+   "quantite": 1,
+   "libelle": "placard"
+  },
+  "placard": true,
+  "source": "estimation",
+  "date": "2026-10"
+ },
+ {
+  "id": "bouillon",
+  "nom": "Bouillon cube",
+  "rayon": "Épicerie",
+  "unite": "piece",
+  "prix": 0.15,
+  "achat": {
+   "quantite": 10,
+   "libelle": "boîte de 10"
+  },
+  "placard": true,
+  "source": "estimation",
+  "date": "2026-10"
+ },
+ {
+  "id": "herbes",
+  "nom": "Herbes de Provence",
+  "rayon": "Épicerie",
+  "unite": "piece",
+  "prix": 0.0,
+  "achat": {
+   "quantite": 1,
+   "libelle": "placard"
+  },
+  "placard": true,
+  "source": "estimation",
+  "date": "2026-10"
+ },
+ {
+  "id": "haricots_verts",
+  "nom": "Haricots verts surgelés",
+  "rayon": "Surgelés",
+  "unite": "kg",
+  "prix": 2.07,
+  "achat": {
+   "quantite": 1,
+   "libelle": "sachet 1 kg"
+  },
+  "placard": false,
+  "source": "open_prices",
+  "date": "2026-10",
+  "enseignes": {
+   "Carrefour": 2.45,
+   "E.Leclerc": 2.07,
+   "Intermarché": 1.84
+  }
+ },
+ {
+  "id": "aubergines",
+  "nom": "Aubergines",
+  "rayon": "Fruits et légumes",
+  "unite": "kg",
+  "prix": 2.85,
+  "achat": {
+   "quantite": 0.5,
+   "libelle": "2 aubergines"
+  },
+  "placard": false,
+  "source": "open_prices",
+  "date": "2026-10",
+  "enseignes": {
+   "Carrefour": 2.29
+  }
+ },
+ {
+  "id": "concombre",
+  "nom": "Concombre",
+  "rayon": "Fruits et légumes",
+  "unite": "piece",
+  "prix": 0.9,
+  "achat": {
+   "quantite": 1,
+   "libelle": "1 concombre"
+  },
+  "placard": false,
+  "source": "estimation",
+  "date": "2026-10"
+ },
+ {
+  "id": "patate_douce",
+  "nom": "Patates douces",
+  "rayon": "Fruits et légumes",
+  "unite": "kg",
+  "prix": 2.49,
+  "achat": {
+   "quantite": 1,
+   "libelle": "1 kg"
+  },
+  "placard": false,
+  "source": "open_prices",
+  "date": "2026-09",
+  "enseignes": {
+   "Carrefour": 2.59,
+   "Intermarché": 2.57,
+   "Lidl": 2.24
+  }
+ },
+ {
+  "id": "endives",
+  "nom": "Endives",
+  "rayon": "Fruits et légumes",
+  "unite": "kg",
+  "prix": 2.42,
+  "achat": {
+   "quantite": 1,
+   "libelle": "sachet 1 kg"
+  },
+  "placard": false,
+  "source": "open_prices",
+  "date": "2026-11",
+  "enseignes": {
+   "Carrefour": 2.42
+  }
+ },
+ {
+  "id": "navets",
+  "nom": "Navets",
+  "rayon": "Fruits et légumes",
+  "unite": "kg",
+  "prix": 2.5,
+  "achat": {
+   "quantite": 0.5,
+   "libelle": "botte 500 g"
+  },
+  "placard": false,
+  "source": "estimation",
+  "date": "2026-10"
+ },
+ {
+  "id": "chou",
+  "nom": "Chou vert",
+  "rayon": "Fruits et légumes",
+  "unite": "piece",
+  "prix": 2.2,
+  "achat": {
+   "quantite": 1,
+   "libelle": "1 chou"
+  },
+  "placard": false,
+  "source": "estimation",
+  "date": "2026-10"
+ },
+ {
+  "id": "mais",
+  "nom": "Maïs (conserve)",
+  "rayon": "Épicerie",
+  "unite": "kg",
+  "prix": 3.91,
+  "achat": {
+   "quantite": 0.285,
+   "libelle": "boîte 285 g"
+  },
+  "placard": false,
+  "source": "open_prices",
+  "date": "2026-10",
+  "enseignes": {
+   "Auchan": 4.53,
+   "Carrefour": 5.16,
+   "E.Leclerc": 3.33,
+   "Franprix": 3.81,
+   "Intermarché": 4.0,
+   "Monoprix": 6.54,
+   "Système U": 4.14
+  }
+ },
+ {
+  "id": "haricots_blancs",
+  "nom": "Haricots blancs (conserve)",
+  "rayon": "Épicerie",
+  "unite": "kg",
+  "prix": 2.41,
+  "achat": {
+   "quantite": 0.4,
+   "libelle": "boîte 400 g"
+  },
+  "placard": false,
+  "source": "open_prices",
+  "date": "2026-11",
+  "enseignes": {
+   "Auchan": 4.56,
+   "Biocoop": 8.75,
+   "Carrefour": 2.14,
+   "E.Leclerc": 2.04,
+   "Franprix": 5.51,
+   "Intermarché": 4.4,
+   "Monoprix": 5.01,
+   "Système U": 3.23
+  }
+ },
+ {
+  "id": "lentilles_vertes",
+  "nom": "Lentilles vertes",
+  "rayon": "Épicerie",
+  "unite": "kg",
+  "prix": 3.34,
+  "achat": {
+   "quantite": 0.5,
+   "libelle": "sachet 500 g"
+  },
+  "placard": false,
+  "source": "open_prices",
+  "date": "2026-11",
+  "enseignes": {
+   "Auchan": 3.34,
+   "Carrefour": 4.01,
+   "E.Leclerc": 3.27,
+   "Franprix": 6.71,
+   "Intermarché": 3.66,
+   "Système U": 6.8
+  }
+ },
+ {
+  "id": "pois_casses",
+  "nom": "Pois cassés",
+  "rayon": "Épicerie",
+  "unite": "kg",
+  "prix": 2.8,
+  "achat": {
+   "quantite": 0.5,
+   "libelle": "sachet 500 g"
+  },
+  "placard": false,
+  "source": "estimation",
+  "date": "2026-10"
+ },
+ {
+  "id": "polenta",
+  "nom": "Polenta",
+  "rayon": "Épicerie",
+  "unite": "kg",
+  "prix": 3.0,
+  "achat": {
+   "quantite": 0.5,
+   "libelle": "paquet 500 g"
+  },
+  "placard": false,
+  "source": "estimation",
+  "date": "2026-10"
+ },
+ {
+  "id": "nouilles",
+  "nom": "Nouilles chinoises",
+  "rayon": "Épicerie",
+  "unite": "kg",
+  "prix": 8.52,
+  "achat": {
+   "quantite": 0.25,
+   "libelle": "paquet 250 g"
+  },
+  "placard": false,
+  "source": "open_prices",
+  "date": "2026-11",
+  "enseignes": {
+   "Auchan": 11.71,
+   "Carrefour": 7.44,
+   "E.Leclerc": 9.67,
+   "Intermarché": 10.63,
+   "Système U": 5.6
+  }
+ },
+ {
+  "id": "pate_brisee",
+  "nom": "Pâte brisée",
+  "rayon": "Frais",
+  "unite": "piece",
+  "prix": 1.3,
+  "achat": {
+   "quantite": 1,
+   "libelle": "1 pâte"
+  },
+  "placard": false,
+  "source": "estimation",
+  "date": "2026-10"
+ },
+ {
+  "id": "pain",
+  "nom": "Baguette",
+  "rayon": "Boulangerie",
+  "unite": "piece",
+  "prix": 1.1,
+  "achat": {
+   "quantite": 1,
+   "libelle": "1 baguette"
+  },
+  "placard": false,
+  "source": "estimation",
+  "date": "2026-10"
+ },
+ {
+  "id": "chevre",
+  "nom": "Bûche de chèvre",
+  "rayon": "Frais",
+  "unite": "kg",
+  "prix": 11.0,
+  "achat": {
+   "quantite": 0.18,
+   "libelle": "bûche 180 g"
+  },
+  "placard": false,
+  "source": "open_prices",
+  "date": "2026-11",
+  "enseignes": {
+   "Auchan": 12.32,
+   "Carrefour": 13.15,
+   "E.Leclerc": 9.22,
+   "Intermarché": 18.3,
+   "Monoprix": 13.7,
+   "Système U": 13.15
+  }
+ },
+ {
+  "id": "raclette",
+  "nom": "Fromage à raclette",
+  "rayon": "Frais",
+  "unite": "kg",
+  "prix": 8.62,
+  "achat": {
+   "quantite": 0.4,
+   "libelle": "barquette 400 g"
+  },
+  "placard": false,
+  "source": "open_prices",
+  "date": "2026-11",
+  "enseignes": {
+   "Auchan": 17.24,
+   "Carrefour": 13.93,
+   "E.Leclerc": 8.42,
+   "Système U": 8.97
+  }
+ },
+ {
+  "id": "tofu",
+  "nom": "Tofu nature",
+  "rayon": "Frais",
+  "unite": "kg",
+  "prix": 9.0,
+  "achat": {
+   "quantite": 0.4,
+   "libelle": "bloc 400 g"
+  },
+  "placard": false,
+  "source": "estimation",
+  "date": "2026-10"
+ },
+ {
+  "id": "knacks",
+  "nom": "Saucisses de Strasbourg",
+  "rayon": "Frais",
+  "unite": "kg",
+  "prix": 7.5,
+  "achat": {
+   "quantite": 0.35,
+   "libelle": "paquet de 6"
+  },
+  "placard": false,
+  "source": "open_prices",
+  "date": "2026-10",
+  "enseignes": {
+   "Auchan": 8.63,
+   "Carrefour": 9.49,
+   "E.Leclerc": 6.52,
+   "Franprix": 11.79,
+   "Intermarché": 8.27,
+   "Système U": 7.3
+  }
+ },
+ {
+  "id": "merguez",
+  "nom": "Merguez",
+  "rayon": "Boucherie",
+  "unite": "kg",
+  "prix": 10.5,
+  "achat": {
+   "quantite": 0.4,
+   "libelle": "barquette 400 g"
+  },
+  "placard": false,
+  "source": "estimation",
+  "date": "2026-10"
+ },
+ {
+  "id": "dinde",
+  "nom": "Escalopes de dinde",
+  "rayon": "Boucherie",
+  "unite": "kg",
+  "prix": 12.0,
+  "achat": {
+   "quantite": 0.5,
+   "libelle": "barquette 500 g"
+  },
+  "placard": false,
+  "source": "estimation",
+  "date": "2026-10"
+ },
+ {
+  "id": "cuisses_poulet",
+  "nom": "Cuisses de poulet",
+  "rayon": "Boucherie",
+  "unite": "kg",
+  "prix": 4.69,
+  "achat": {
+   "quantite": 1,
+   "libelle": "barquette 1 kg"
+  },
+  "placard": false,
+  "source": "open_prices",
+  "date": "2026-11",
+  "enseignes": {
+   "Auchan": 4.05,
+   "E.Leclerc": 4.58
+  }
+ },
+ {
+  "id": "boeuf_braiser",
+  "nom": "Bœuf à braiser",
+  "rayon": "Boucherie",
+  "unite": "kg",
+  "prix": 14.5,
+  "achat": {
+   "quantite": 0.8,
+   "libelle": "barquette 800 g"
+  },
+  "placard": false,
+  "source": "estimation",
+  "date": "2026-10"
+ },
+ {
+  "id": "crevettes",
+  "nom": "Crevettes décortiquées surgelées",
+  "rayon": "Surgelés",
+  "unite": "kg",
+  "prix": 25.3,
+  "achat": {
+   "quantite": 0.3,
+   "libelle": "sachet 300 g"
+  },
+  "placard": false,
+  "source": "open_prices",
+  "date": "2026-02",
+  "enseignes": {
+   "Carrefour": 26.39,
+   "E.Leclerc": 9.98
+  }
+ },
+ {
+  "id": "poisson_pane",
+  "nom": "Poisson pané surgelé",
+  "rayon": "Surgelés",
+  "unite": "kg",
+  "prix": 7.61,
+  "achat": {
+   "quantite": 0.4,
+   "libelle": "boîte de 10"
+  },
+  "placard": false,
+  "source": "open_prices",
+  "date": "2026-11",
+  "enseignes": {
+   "Auchan": 13.59,
+   "Carrefour": 7.48,
+   "E.Leclerc": 7.55,
+   "Franprix": 12.29,
+   "Intermarché": 7.44,
+   "Système U": 6.72
+  }
+ },
+ {
+  "id": "sauce_soja",
+  "nom": "Sauce soja",
+  "rayon": "Épicerie",
+  "unite": "piece",
+  "prix": 0.0,
+  "achat": {
+   "quantite": 1,
+   "libelle": "placard"
+  },
+  "placard": true,
+  "source": "estimation",
+  "date": "2026-10"
+ },
+ {
+  "id": "moutarde",
+  "nom": "Moutarde",
+  "rayon": "Épicerie",
+  "unite": "piece",
+  "prix": 0.0,
+  "achat": {
+   "quantite": 1,
+   "libelle": "placard"
+  },
+  "placard": true,
+  "source": "estimation",
+  "date": "2026-10"
+ },
+ {
+  "id": "sucre",
+  "nom": "Sucre",
+  "rayon": "Épicerie",
+  "unite": "piece",
+  "prix": 0.0,
+  "achat": {
+   "quantite": 1,
+   "libelle": "placard"
+  },
+  "placard": true,
+  "source": "estimation",
+  "date": "2026-10"
+ },
+ {
+  "id": "celeri",
+  "nom": "Céleri branche",
+  "rayon": "Fruits et légumes",
+  "unite": "piece",
+  "prix": 1.7,
+  "achat": {
+   "quantite": 1,
+   "libelle": "1 pied"
+  },
+  "placard": false,
+  "source": "estimation",
+  "date": "2026-10"
+ },
+ {
+  "id": "avocat",
+  "nom": "Avocat",
+  "rayon": "Fruits et légumes",
+  "unite": "piece",
+  "prix": 1.29,
+  "achat": {
+   "quantite": 1,
+   "libelle": "1 avocat"
+  },
+  "placard": false,
+  "source": "open_prices",
+  "date": "2026-09",
+  "enseignes": {
+   "Carrefour": 1.39
+  }
+ },
+ {
+  "id": "blettes",
+  "nom": "Blettes",
+  "rayon": "Fruits et légumes",
+  "unite": "kg",
+  "prix": 3.5,
+  "achat": {
+   "quantite": 1,
+   "libelle": "botte 1 kg"
+  },
+  "placard": false,
+  "source": "estimation",
+  "date": "2026-10"
+ },
+ {
+  "id": "pommes",
+  "nom": "Pommes",
+  "rayon": "Fruits et légumes",
+  "unite": "kg",
+  "prix": 2.81,
+  "achat": {
+   "quantite": 1.5,
+   "libelle": "sachet 1,5 kg"
+  },
+  "placard": false,
+  "source": "open_prices",
+  "date": "2026-10",
+  "enseignes": {
+   "Biocoop": 3.6,
+   "Carrefour": 2.71,
+   "E.Leclerc": 2.72,
+   "Intermarché": 2.81,
+   "Lidl": 1.99,
+   "Monoprix": 1.99,
+   "Système U": 2.77
+  }
+ },
+ {
+  "id": "orange",
+  "nom": "Orange",
+  "rayon": "Fruits et légumes",
+  "unite": "piece",
+  "prix": 0.45,
+  "achat": {
+   "quantite": 1,
+   "libelle": "1 orange"
+  },
+  "placard": false,
+  "source": "estimation",
+  "date": "2026-10"
+ },
+ {
+  "id": "betteraves",
+  "nom": "Betteraves cuites",
+  "rayon": "Fruits et légumes",
+  "unite": "kg",
+  "prix": 3.78,
+  "achat": {
+   "quantite": 0.5,
+   "libelle": "sous vide 500 g"
+  },
+  "placard": false,
+  "source": "open_prices",
+  "date": "2026-11",
+  "enseignes": {
+   "Carrefour": 2.62,
+   "Lidl": 3.78
+  }
+ },
+ {
+  "id": "olives",
+  "nom": "Olives noires dénoyautées",
+  "rayon": "Épicerie",
+  "unite": "kg",
+  "prix": 7.32,
+  "achat": {
+   "quantite": 0.16,
+   "libelle": "bocal 160 g"
+  },
+  "placard": false,
+  "source": "open_prices",
+  "date": "2026-10",
+  "enseignes": {
+   "Carrefour": 4.89,
+   "E.Leclerc": 5.37,
+   "Intermarché": 13.04,
+   "Monoprix": 11.44,
+   "Système U": 9.8
+  }
+ },
+ {
+  "id": "anchois",
+  "nom": "Filets d'anchois à l'huile",
+  "rayon": "Épicerie",
+  "unite": "kg",
+  "prix": 22.24,
+  "achat": {
+   "quantite": 0.08,
+   "libelle": "boîte 80 g"
+  },
+  "placard": false,
+  "source": "open_prices",
+  "date": "2026-10",
+  "enseignes": {
+   "Auchan": 36.0,
+   "Carrefour": 25.9,
+   "E.Leclerc": 17.6,
+   "Intermarché": 21.23,
+   "Système U": 41.2
+  }
+ },
+ {
+  "id": "cornichons",
+  "nom": "Cornichons",
+  "rayon": "Épicerie",
+  "unite": "kg",
+  "prix": 5.13,
+  "achat": {
+   "quantite": 0.35,
+   "libelle": "bocal 350 g"
+  },
+  "placard": false,
+  "source": "open_prices",
+  "date": "2026-11",
+  "enseignes": {
+   "Auchan": 5.8,
+   "Biocoop": 9.13,
+   "Carrefour": 3.89,
+   "E.Leclerc": 4.24,
+   "Intermarché": 6.77,
+   "Monoprix": 6.59,
+   "Système U": 5.22
+  }
+ },
+ {
+  "id": "pignons",
+  "nom": "Pignons de pin",
+  "rayon": "Épicerie",
+  "unite": "kg",
+  "prix": 49.85,
+  "achat": {
+   "quantite": 0.1,
+   "libelle": "sachet 100 g"
+  },
+  "placard": false,
+  "source": "open_prices",
+  "date": "2026-09",
+  "enseignes": {
+   "Carrefour": 48.2
+  }
+ },
+ {
+  "id": "noix",
+  "nom": "Cerneaux de noix",
+  "rayon": "Épicerie",
+  "unite": "kg",
+  "prix": 27.28,
+  "achat": {
+   "quantite": 0.125,
+   "libelle": "sachet 125 g"
+  },
+  "placard": false,
+  "source": "open_prices",
+  "date": "2026-11",
+  "enseignes": {
+   "Carrefour": 25.44,
+   "E.Leclerc": 37.0,
+   "Franprix": 31.92,
+   "Système U": 27.28
+  }
+ },
+ {
+  "id": "cacahuetes",
+  "nom": "Cacahuètes grillées",
+  "rayon": "Épicerie",
+  "unite": "kg",
+  "prix": 3.4,
+  "achat": {
+   "quantite": 0.2,
+   "libelle": "sachet 200 g"
+  },
+  "placard": false,
+  "source": "open_prices",
+  "date": "2026-11",
+  "enseignes": {
+   "Auchan": 4.6,
+   "Carrefour": 5.12,
+   "E.Leclerc": 2.97,
+   "Franprix": 3.75,
+   "Lidl": 2.84,
+   "Monoprix": 4.62,
+   "Système U": 3.45
+  }
+ },
+ {
+  "id": "raisins_secs",
+  "nom": "Raisins secs",
+  "rayon": "Épicerie",
+  "unite": "kg",
+  "prix": 8.22,
+  "achat": {
+   "quantite": 0.25,
+   "libelle": "sachet 250 g"
+  },
+  "placard": false,
+  "source": "open_prices",
+  "date": "2026-10",
+  "enseignes": {
+   "Auchan": 7.83,
+   "Carrefour": 8.46,
+   "E.Leclerc": 8.7,
+   "Intermarché": 10.8,
+   "Système U": 8.06
+  }
+ },
+ {
+  "id": "miel",
+  "nom": "Miel",
+  "rayon": "Épicerie",
+  "unite": "kg",
+  "prix": 11.91,
+  "achat": {
+   "quantite": 0.5,
+   "libelle": "pot 500 g"
+  },
+  "placard": false,
+  "source": "open_prices",
+  "date": "2026-11",
+  "enseignes": {
+   "Auchan": 14.64,
+   "Biocoop": 24.4,
+   "Carrefour": 10.87,
+   "E.Leclerc": 9.22,
+   "Franprix": 10.77,
+   "Intermarché": 11.82,
+   "Monoprix": 22.05,
+   "Système U": 10.9
+  }
+ },
+ {
+  "id": "safran",
+  "nom": "Safran",
+  "rayon": "Épicerie",
+  "unite": "piece",
+  "prix": 2.2,
+  "achat": {
+   "quantite": 1,
+   "libelle": "dose 0,1 g"
+  },
+  "placard": false,
+  "source": "estimation",
+  "date": "2026-10"
+ },
+ {
+  "id": "fumet_poisson",
+  "nom": "Fumet de poisson déshydraté",
+  "rayon": "Épicerie",
+  "unite": "piece",
+  "prix": 0.3,
+  "achat": {
+   "quantite": 8,
+   "libelle": "boîte de 8 doses"
+  },
+  "placard": true,
+  "source": "estimation",
+  "date": "2026-10"
+ },
+ {
+  "id": "mayonnaise",
+  "nom": "Mayonnaise",
+  "rayon": "Épicerie",
+  "unite": "kg",
+  "prix": 5.7,
+  "achat": {
+   "quantite": 0.235,
+   "libelle": "bocal 235 g"
+  },
+  "placard": false,
+  "source": "open_prices",
+  "date": "2026-11",
+  "enseignes": {
+   "Auchan": 5.67,
+   "Biocoop": 17.64,
+   "Carrefour": 5.44,
+   "Casino": 8.43,
+   "E.Leclerc": 4.64,
+   "Franprix": 8.95,
+   "Intermarché": 7.07,
+   "Monoprix": 8.77,
+   "Système U": 5.91
+  }
+ },
+ {
+  "id": "pesto",
+  "nom": "Pesto au basilic",
+  "rayon": "Épicerie",
+  "unite": "kg",
+  "prix": 11.36,
+  "achat": {
+   "quantite": 0.19,
+   "libelle": "pot 190 g"
+  },
+  "placard": false,
+  "source": "open_prices",
+  "date": "2026-11",
+  "enseignes": {
+   "Auchan": 9.85,
+   "Biocoop": 21.35,
+   "Carrefour": 10.95,
+   "E.Leclerc": 10.72,
+   "Intermarché": 12.74,
+   "Monoprix": 15.88,
+   "Système U": 10.77
+  }
+ },
+ {
+  "id": "biere",
+  "nom": "Bière blonde",
+  "rayon": "Épicerie",
+  "unite": "l",
+  "prix": 3.34,
+  "achat": {
+   "quantite": 0.75,
+   "libelle": "bouteille 75 cl"
+  },
+  "placard": false,
+  "source": "open_prices",
+  "date": "2026-11",
+  "enseignes": {
+   "Auchan": 3.71,
+   "Biocoop": 7.29,
+   "Carrefour": 3.16,
+   "E.Leclerc": 3.12,
+   "Franprix": 4.4,
+   "Intermarché": 3.08,
+   "Monoprix": 4.12,
+   "Système U": 3.74
+  }
+ },
+ {
+  "id": "crozets",
+  "nom": "Crozets de Savoie",
+  "rayon": "Épicerie",
+  "unite": "kg",
+  "prix": 7.5,
+  "achat": {
+   "quantite": 0.4,
+   "libelle": "paquet 400 g"
+  },
+  "placard": false,
+  "source": "estimation",
+  "date": "2026-10"
+ },
+ {
+  "id": "quinoa",
+  "nom": "Quinoa",
+  "rayon": "Épicerie",
+  "unite": "kg",
+  "prix": 7.48,
+  "achat": {
+   "quantite": 0.5,
+   "libelle": "sachet 500 g"
+  },
+  "placard": false,
+  "source": "open_prices",
+  "date": "2026-11",
+  "enseignes": {
+   "Auchan": 6.26,
+   "Carrefour": 9.27,
+   "E.Leclerc": 5.74,
+   "Franprix": 13.82,
+   "Intermarché": 8.19,
+   "Monoprix": 11.72,
+   "Système U": 8.26
+  }
+ },
+ {
+  "id": "choucroute",
+  "nom": "Choucroute cuite nature",
+  "rayon": "Frais",
+  "unite": "kg",
+  "prix": 5.01,
+  "achat": {
+   "quantite": 0.8,
+   "libelle": "sachet 800 g"
+  },
+  "placard": false,
+  "source": "open_prices",
+  "date": "2026-11",
+  "enseignes": {
+   "Auchan": 3.36,
+   "Carrefour": 4.18,
+   "E.Leclerc": 4.43,
+   "Intermarché": 2.44,
+   "Monoprix": 6.24,
+   "Système U": 8.99
+  }
+ },
+ {
+  "id": "beaufort",
+  "nom": "Beaufort",
+  "rayon": "Frais",
+  "unite": "kg",
+  "prix": 26.0,
+  "achat": {
+   "quantite": 0.2,
+   "libelle": "morceau 200 g"
+  },
+  "placard": false,
+  "source": "estimation",
+  "date": "2026-10"
+ },
+ {
+  "id": "reblochon",
+  "nom": "Reblochon",
+  "rayon": "Frais",
+  "unite": "kg",
+  "prix": 14.96,
+  "achat": {
+   "quantite": 0.45,
+   "libelle": "1 reblochon 450 g"
+  },
+  "placard": false,
+  "source": "open_prices",
+  "date": "2026-11",
+  "enseignes": {
+   "Carrefour": 16.64,
+   "E.Leclerc": 13.89,
+   "Système U": 18.21
+  }
+ },
+ {
+  "id": "fromage_blanc",
+  "nom": "Fromage blanc",
+  "rayon": "Frais",
+  "unite": "kg",
+  "prix": 9.92,
+  "achat": {
+   "quantite": 0.5,
+   "libelle": "pot 500 g"
+  },
+  "placard": false,
+  "source": "open_prices",
+  "date": "2026-11",
+  "enseignes": {
+   "Auchan": 9.42,
+   "E.Leclerc": 10.86,
+   "Intermarché": 8.29,
+   "Système U": 13.89
+  }
+ },
+ {
+  "id": "yaourt",
+  "nom": "Yaourts nature",
+  "rayon": "Frais",
+  "unite": "piece",
+  "prix": 0.2,
+  "achat": {
+   "quantite": 4,
+   "libelle": "pack de 4"
+  },
+  "placard": false,
+  "source": "estimation",
+  "date": "2026-10"
+ },
+ {
+  "id": "saindoux",
+  "nom": "Saindoux",
+  "rayon": "Frais",
+  "unite": "kg",
+  "prix": 6.72,
+  "achat": {
+   "quantite": 0.25,
+   "libelle": "barquette 250 g"
+  },
+  "placard": false,
+  "source": "open_prices",
+  "date": "2026-11",
+  "enseignes": {
+   "E.Leclerc": 6.72
+  }
+ },
+ {
+  "id": "chorizo",
+  "nom": "Chorizo",
+  "rayon": "Frais",
+  "unite": "kg",
+  "prix": 6.64,
+  "achat": {
+   "quantite": 0.225,
+   "libelle": "chorizo 225 g"
+  },
+  "placard": false,
+  "source": "open_prices",
+  "date": "2026-10",
+  "enseignes": {
+   "Carrefour": 22.5,
+   "E.Leclerc": 6.64
+  }
+ },
+ {
+  "id": "brick",
+  "nom": "Feuilles de brick",
+  "rayon": "Frais",
+  "unite": "piece",
+  "prix": 0.28,
+  "achat": {
+   "quantite": 10,
+   "libelle": "paquet de 10"
+  },
+  "placard": false,
+  "source": "estimation",
+  "date": "2026-10"
+ },
+ {
+  "id": "galettes_sarrasin",
+  "nom": "Galettes de sarrasin",
+  "rayon": "Frais",
+  "unite": "piece",
+  "prix": 0.38,
+  "achat": {
+   "quantite": 6,
+   "libelle": "paquet de 6"
+  },
+  "placard": false,
+  "source": "estimation",
+  "date": "2026-10"
+ },
+ {
+  "id": "pains_burger",
+  "nom": "Pains à burger",
+  "rayon": "Boulangerie",
+  "unite": "piece",
+  "prix": 0.4,
+  "achat": {
+   "quantite": 4,
+   "libelle": "paquet de 4"
+  },
+  "placard": false,
+  "source": "estimation",
+  "date": "2026-10"
+ },
+ {
+  "id": "moules",
+  "nom": "Moules de bouchot",
+  "rayon": "Poissonnerie",
+  "unite": "kg",
+  "prix": 8.75,
+  "achat": {
+   "quantite": 1,
+   "libelle": "filet 1 kg"
+  },
+  "placard": false,
+  "source": "open_prices",
+  "date": "2026-11",
+  "enseignes": {
+   "Auchan": 3.0,
+   "Carrefour": 7.58,
+   "E.Leclerc": 9.14,
+   "Intermarché": 8.12,
+   "Système U": 8.6
+  }
+ },
+ {
+  "id": "canard",
+  "nom": "Cuisses de canard",
+  "rayon": "Boucherie",
+  "unite": "kg",
+  "prix": 11.5,
+  "achat": {
+   "quantite": 0.6,
+   "libelle": "2 cuisses"
+  },
+  "placard": false,
+  "source": "estimation",
+  "date": "2026-10"
+ },
+ {
+  "id": "lapin",
+  "nom": "Lapin découpé",
+  "rayon": "Boucherie",
+  "unite": "kg",
+  "prix": 13.0,
+  "achat": {
+   "quantite": 1.2,
+   "libelle": "lapin découpé 1,2 kg"
+  },
+  "placard": false,
+  "source": "estimation",
+  "date": "2026-10"
+ },
+ {
+  "id": "agneau",
+  "nom": "Sauté d'agneau (épaule)",
+  "rayon": "Boucherie",
+  "unite": "kg",
+  "prix": 17.0,
+  "achat": {
+   "quantite": 0.8,
+   "libelle": "barquette 800 g"
+  },
+  "placard": false,
+  "source": "estimation",
+  "date": "2026-10"
+ },
+ {
+  "id": "veau",
+  "nom": "Sauté de veau",
+  "rayon": "Boucherie",
+  "unite": "kg",
+  "prix": 19.0,
+  "achat": {
+   "quantite": 0.8,
+   "libelle": "barquette 800 g"
+  },
+  "placard": false,
+  "source": "estimation",
+  "date": "2026-10"
+ },
+ {
+  "id": "steak",
+  "nom": "Steaks de bœuf",
+  "rayon": "Boucherie",
+  "unite": "kg",
+  "prix": 15.54,
+  "achat": {
+   "quantite": 0.5,
+   "libelle": "4 steaks"
+  },
+  "placard": false,
+  "source": "open_prices",
+  "date": "2026-11",
+  "enseignes": {
+   "Auchan": 13.82,
+   "Carrefour": 18.31,
+   "E.Leclerc": 14.5,
+   "Franprix": 15.56,
+   "Intermarché": 17.09,
+   "Monoprix": 13.85,
+   "Système U": 20.36
+  }
+ }
+]
