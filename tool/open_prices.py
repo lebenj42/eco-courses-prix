@@ -20,6 +20,11 @@ from collections import defaultdict
 
 API = "https://prices.openfoodfacts.org/api/v1/prices"
 PAGES = 3
+# Pauses entre deux essais quand Open Prices ne répond pas (secondes).
+PAUSES = (10, 30, 60, 120, 0)
+# Au-delà de ce nombre d'ingrédients injoignables d'affilée, Open Prices est
+# jugé en panne : on s'arrête sans rien écrire (l'ancien fichier reste).
+MAX_INJOIGNABLES_SUITE = 3
 # ingrédient -> (unité de l'ingrédient, type, étiquettes de catégorie à essayer)
 CATEGORIES = {
     "pates": ("kg", "produit", ["en:pastas"]),
@@ -131,20 +136,18 @@ def prix_bas(valeurs):
     return statistics.quantiles(v, n=4)[0] if len(v) >= 4 else v[0]
 
 
-ESSAIS = 5  # Open Prices répond parfois très lentement : on réessaie en attendant de plus en plus.
-
-
 def get(params):
     url = API + "?" + urllib.parse.urlencode(params)
     req = urllib.request.Request(url, headers={"User-Agent": "EcoCourses/0.1 (github.com/lebenj42)"})
-    for essai in range(ESSAIS):
+    # Le serveur d'Open Prices est parfois lent : on patiente de plus en plus.
+    for essai, pause in enumerate(PAUSES):
         try:
             with urllib.request.urlopen(req, timeout=90) as r:
                 return json.load(r)
         except Exception:  # noqa: BLE001
-            if essai == ESSAIS - 1:
+            if essai == len(PAUSES) - 1:
                 raise
-            time.sleep(10 * 2 ** essai)
+            time.sleep(pause)
 
 
 def enseigne(nom):
@@ -191,19 +194,29 @@ def main(sortie):
     depuis = (dt.date.today() - dt.timedelta(days=365)).isoformat()
     resultat = {"source": "Open Prices, contributeurs Open Food Facts", "licence": "ODbL 1.0",
                 "genere_le": dt.date.today().isoformat(), "depuis": depuis, "ingredients": {}}
+    try:
+        with open(sortie) as f:
+            ancien = json.load(f).get("ingredients", {})
+    except (OSError, ValueError):
+        ancien = {}
+    suite = 0
     for ing, (unite, genre, cats) in CATEGORIES.items():
         vus = []
-        for cat in cats:
-            try:
+        try:
+            for cat in cats:
                 vus = releves(unite, genre, cat, depuis)
-            except Exception as e:  # noqa: BLE001
-                # Un ingrédient injoignable garde son prix de la semaine
-                # dernière (maj_prix.py ne touche qu'aux ingrédients relevés).
-                print(f"{ing}: Open Prices injoignable ({e}), prix précédent gardé")
-                vus = []
-                continue
-            if len(vus) >= 5:
-                break
+                if len(vus) >= 5:
+                    break
+        except Exception as e:  # noqa: BLE001
+            suite += 1
+            if suite >= MAX_INJOIGNABLES_SUITE:
+                sys.exit(f"Open Prices injoignable pour {suite} ingrédients de suite : relevé à refaire.")
+            # Un ingrédient injoignable garde son relevé précédent.
+            if ing in ancien:
+                resultat["ingredients"][ing] = ancien[ing]
+            print(f"{ing}: Open Prices injoignable ({e}), ancien relevé gardé")
+            continue
+        suite = 0
         if not vus:
             print(f"{ing}: aucun relevé exploitable")
             continue
@@ -222,8 +235,6 @@ def main(sortie):
     with open(sortie, "w") as f:
         json.dump(resultat, f, ensure_ascii=False, indent=1)
     print(len(resultat["ingredients"]), "ingrédients couverts sur", len(CATEGORIES))
-    if not resultat["ingredients"]:
-        sys.exit("Open Prices n'a rien renvoyé : prix de la semaine dernière gardés.")
 
 
 if __name__ == "__main__":
