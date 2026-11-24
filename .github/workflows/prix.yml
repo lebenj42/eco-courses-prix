@@ -6,6 +6,7 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '0 6 * * 1'  # chaque lundi à 6 h UTC
+    - cron: '0 6 * * 4'  # rattrapage le jeudi si Open Prices ne répondait pas lundi
 
 permissions:
   contents: write
