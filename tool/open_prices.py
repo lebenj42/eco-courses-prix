@@ -22,8 +22,9 @@ API = "https://prices.openfoodfacts.org/api/v1/prices"
 PAGES = 3
 # Pauses entre deux essais quand Open Prices ne répond pas (secondes).
 PAUSES = (10, 30, 60, 120, 0)
-# Au-delà de cette part d'ingrédients injoignables, le relevé est jugé raté.
-PART_MAX_INJOIGNABLES = 0.5
+# Au-delà de ce nombre d'ingrédients injoignables d'affilée, Open Prices est
+# jugé en panne : on s'arrête sans rien écrire (l'ancien fichier reste).
+MAX_INJOIGNABLES_SUITE = 3
 # ingrédient -> (unité de l'ingrédient, type, étiquettes de catégorie à essayer)
 CATEGORIES = {
     "pates": ("kg", "produit", ["en:pastas"]),
@@ -193,7 +194,12 @@ def main(sortie):
     depuis = (dt.date.today() - dt.timedelta(days=365)).isoformat()
     resultat = {"source": "Open Prices, contributeurs Open Food Facts", "licence": "ODbL 1.0",
                 "genere_le": dt.date.today().isoformat(), "depuis": depuis, "ingredients": {}}
-    injoignables = []
+    try:
+        with open(sortie) as f:
+            ancien = json.load(f).get("ingredients", {})
+    except (OSError, ValueError):
+        ancien = {}
+    suite = 0
     for ing, (unite, genre, cats) in CATEGORIES.items():
         vus = []
         try:
@@ -202,10 +208,15 @@ def main(sortie):
                 if len(vus) >= 5:
                     break
         except Exception as e:  # noqa: BLE001
-            # Un ingrédient injoignable garde le prix déjà publié (maj_prix.py).
-            injoignables.append(ing)
-            print(f"{ing}: Open Prices injoignable ({e}), ancien prix gardé")
+            suite += 1
+            if suite >= MAX_INJOIGNABLES_SUITE:
+                sys.exit(f"Open Prices injoignable pour {suite} ingrédients de suite : relevé à refaire.")
+            # Un ingrédient injoignable garde son relevé précédent.
+            if ing in ancien:
+                resultat["ingredients"][ing] = ancien[ing]
+            print(f"{ing}: Open Prices injoignable ({e}), ancien relevé gardé")
             continue
+        suite = 0
         if not vus:
             print(f"{ing}: aucun relevé exploitable")
             continue
@@ -224,8 +235,6 @@ def main(sortie):
     with open(sortie, "w") as f:
         json.dump(resultat, f, ensure_ascii=False, indent=1)
     print(len(resultat["ingredients"]), "ingrédients couverts sur", len(CATEGORIES))
-    if len(injoignables) > PART_MAX_INJOIGNABLES * len(CATEGORIES):
-        sys.exit(f"Open Prices injoignable pour {len(injoignables)} ingrédients : relevé à refaire.")
 
 
 if __name__ == "__main__":
