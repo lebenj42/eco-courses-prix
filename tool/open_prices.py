@@ -131,17 +131,20 @@ def prix_bas(valeurs):
     return statistics.quantiles(v, n=4)[0] if len(v) >= 4 else v[0]
 
 
+ESSAIS = 5  # Open Prices répond parfois très lentement : on réessaie en attendant de plus en plus.
+
+
 def get(params):
     url = API + "?" + urllib.parse.urlencode(params)
     req = urllib.request.Request(url, headers={"User-Agent": "EcoCourses/0.1 (github.com/lebenj42)"})
-    for essai in range(3):
+    for essai in range(ESSAIS):
         try:
-            with urllib.request.urlopen(req, timeout=60) as r:
+            with urllib.request.urlopen(req, timeout=90) as r:
                 return json.load(r)
         except Exception:  # noqa: BLE001
-            if essai == 2:
+            if essai == ESSAIS - 1:
                 raise
-            time.sleep(5)
+            time.sleep(10 * 2 ** essai)
 
 
 def enseigne(nom):
@@ -191,7 +194,14 @@ def main(sortie):
     for ing, (unite, genre, cats) in CATEGORIES.items():
         vus = []
         for cat in cats:
-            vus = releves(unite, genre, cat, depuis)
+            try:
+                vus = releves(unite, genre, cat, depuis)
+            except Exception as e:  # noqa: BLE001
+                # Un ingrédient injoignable garde son prix de la semaine
+                # dernière (maj_prix.py ne touche qu'aux ingrédients relevés).
+                print(f"{ing}: Open Prices injoignable ({e}), prix précédent gardé")
+                vus = []
+                continue
             if len(vus) >= 5:
                 break
         if not vus:
@@ -212,6 +222,8 @@ def main(sortie):
     with open(sortie, "w") as f:
         json.dump(resultat, f, ensure_ascii=False, indent=1)
     print(len(resultat["ingredients"]), "ingrédients couverts sur", len(CATEGORIES))
+    if not resultat["ingredients"]:
+        sys.exit("Open Prices n'a rien renvoyé : prix de la semaine dernière gardés.")
 
 
 if __name__ == "__main__":
